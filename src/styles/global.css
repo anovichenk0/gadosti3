@@ -4,13 +4,47 @@
   font-style: normal;
   font-display: swap;
 }
+
+@font-face {
+  font-family: 'VCRMono';
+  src: url('/fonts/VcrOsdMono.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'VCRMono';
+  src: url('/fonts/VcrOsdMonoCyr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@font-face {
+  font-family: 'MultiVCR';
+  src: url('/fonts/VcrOsdMonoCyr.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'MultiVCR';
+  src: url('/fonts/VCRosdNEUE.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 body {
-  font-family: "VCR", monospace !important;
+  font-family: "MultiVCR", monospace !important;
 }
 
 pre,
 code {
-  font-family: "VCR", monospace !important;
+  font-family: "MultiVCR", monospace !important;
   font-weight: 100;
 }
 
